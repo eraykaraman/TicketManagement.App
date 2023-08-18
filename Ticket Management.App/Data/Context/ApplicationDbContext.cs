@@ -14,11 +14,6 @@ namespace TicketManagement.App.Data.Context
         public DbSet<Ticket> Tickets { get; set; }
 
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            
-
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -7,9 +7,6 @@ namespace TicketManagement.App.Services
     public class ReservationService
     {
 
-        private readonly TicketService _ticketService;
-        private readonly TrainService _trainService;
-        private readonly VagonsService _vagonsService;
         private readonly ApplicationDbContext _context;
 
         public ReservationService(ApplicationDbContext context)
