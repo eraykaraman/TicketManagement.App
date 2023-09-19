@@ -73,7 +73,7 @@ namespace TicketManagement.App.Services
             }
             else
             {
-                throw new Exception("Product not found.");
+                throw new Exception("ticket not found.");
             }
         }
 
